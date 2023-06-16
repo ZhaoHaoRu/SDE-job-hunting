@@ -96,3 +96,9 @@ System design:  [Jeevan-kumar-Raj/Grokking-System-Design: Systems design is the 
 外企风格的面试指南：[yangshun/tech-interview-handbook: 💯 Curated coding interview preparation materials for busy software engineers (github.com)](https://github.com/yangshun/tech-interview-handbook)
 
 ZJU大佬的面试经验分享：[conanhujinming/tips_for_interview: 我的一些面试心得；自学CS历程分享；找工作求职经验分享 (github.com)](https://github.com/conanhujinming/tips_for_interview)
+
+
+
+## 6. 其他
+
+如果你发现了任何错误，欢迎提出issue; 或者文档中的内容侵犯了你的权益，请及时与我联系。
