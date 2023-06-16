@@ -1,0 +1,101 @@
+\documentclass{resume}
+\ResumeName{XXX}
+
+\begin{document}
+
+\ResumeContacts{
+  (+86 xxxxxxxxxx) ,%
+  \ResumeUrl{zhaohaoru@sjtu.edu.cn}{zhaohaoru@sjtu.edu.cn},%
+  \ResumeUrl{https://github.com/ZhaoHaoRu}{https://github.com/ZhaoHaoRu}%
+}
+
+\ResumeTitle
+\section{教育经历}
+\ResumeItem
+[上海交通大学|本科]
+{上海交通大学|本科}
+[\textnormal{软件工程 \qquad \textbf{GPA: XXX/4.3(XX/XX)}} ]
+[2020.09 - 2024.06] 
+
+
+
+\section{技术能力}
+\begin{itemize}
+  \item \textbf{编程语言}: \textbf{C++}, Python, Java 
+  \item \textbf{框架}: Spring, React, React Native
+  \item \textbf{数据库}: MySQL, Redis, MongoDB
+  \item \textbf{工具}: CMake, Git, GDB, Shell, LaTeX, Markdown
+\end{itemize}
+
+\section{项目经历}
+\ResumeItem{\ResumeUrl{https://github.com/ZhaoHaoRu/tiger-compiler}{\textbf{Tiger}编译器}}
+[个人项目]
+[2022.09-2022.12] 
+\begin{itemize}
+    \item 参考《现代编译原理: C 语言描述》（虎书）完成的 Tiger 编译器
+    \item 包括词法分析、语法分析、类型检查、逃逸分析、\textbf{指令选择、寄存器分配、垃圾回收}等步骤和功能
+  \item \textbf{能够生成可以在X86-64架构下能够执行的汇编代码}
+\end{itemize}
+
+\ResumeItem{\ResumeUrl{https://github.com/ZhaoHaoRu/CHFS}{\textbf{CHFS}文件系统}}
+[个人项目]
+[2022.09-2022.12] 
+\begin{itemize}
+  \item CHFS是一个类似于\textbf{谷歌文件系统（GFS）}的分布式文件系统
+  \item 实现了inode-based File System的基本操作，如mkdir, symlink, create, read, write
+  \item 在CHFS上使用redo-log实现了Atomicity
+  \item 实现了\textbf{raft协议}以拓展成分布式文件系统
+    \item 实现 MapReduce 工具，通过 RPC 调用实现分布式系统上的单词数量统计功能。
+\end{itemize}
+
+\ResumeItem{\ResumeUrl{https://github.com/ZhaoHaoRu/Group-Purchase-Microservices-Architecture-Backend}{社区团购平台}}
+[全栈开发]
+[2022.06 - 2022.09] 
+
+\begin{itemize}
+    \item 提供了创建与修改团购、浏览与参与团购、查询团购、团购推荐等功能
+  \item 提供多平台支持，安卓前端采用React Native，web前端采用React, 借助native base组件库完成前端UI设计，使用react-navigation提供路由转发功能，并且支持团购二维码的生成和分享
+    \item 借助Redis, RabbitMQ完成秒杀功能，能够支持2000并发
+  \item 采用spring cloud 实现分布式微服务架构，Zuul 整合spring security实现用户鉴权与认证
+\end{itemize}
+
+\ResumeItem{\ResumeUrl{https://github.com/ZhaoHaoRu/CS144}{计算机网络模拟}}
+[个人项目]
+[2022.02 - 2022.08]  
+
+\begin{itemize}
+  \item 斯坦福大学 CS144:Introduction to Computer Networking 的配套实验
+  \item 实现了一个简单的\textbf{TCP protocol},构建了TCP的有限状态机（FSM）
+  \item 实现了\textbf{ARP协议}
+  \item 实现了基于最长前缀匹配规则的\textbf{路由器转发}功能
+\end{itemize}
+
+\section{论文发表}
+\ResumeItem{UAI(\textbf{CCF-B}): \ResumeUrl{https://openreview.net/forum?id=rKUgiU8iqeq}{ \textbf{Federated online clustering of
+bandits}}}
+[二作]
+[2022.06]  
+\begin{itemize}
+  \item 我负责了这篇论文的实验部分，将我们的算法和baseline在synthetic dataset和真实数据集上做了很多比较，就参数的变化做了对比实验
+\end{itemize}
+
+\section{科研经历}
+\ResumeItem{\textbf{\textit{Federated Clustering of Bandits} research group}}[成员][2021.07-2022.03] 
+\begin{itemize}
+  \item \textbf{参与\textit{Federated Clustering of Bandits}这一课题的研究},每周进行论文阅读、理论推导、实验验证的任务
+\end{itemize}
+
+\ResumeItem{并行与分布式系统研究所\textbf{(IPADS)}}[实习生][2022.10-Now] 
+\begin{itemize}
+  \item \textbf{参与交通事故溯因底层支持系统这一项目},我的主要工作是基于FoundationDB实现⼀个多模态云存储, 并添加SQL和时序数据库的⽀持
+\end{itemize}
+
+\section{其他荣誉}
+\begin{itemize}
+  \item 上海交通大学三好学生  
+  \item 第八届中国国际“互联网+”大学生创新创业大赛省赛金奖
+  \item 校级 B 类奖学金
+\end{itemize}
+\end{document}
+
+
